@@ -11,15 +11,12 @@ function Journey() {
     <div id="history">
       <div className="items-container">
         <Particle/>
-        
-        <h1>Career History</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{  color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            contentStyle={{  color: '#0b0d1a' }}
             date="present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#0b0d1a', color: 'white' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">UnEmployed!</h3>
@@ -30,8 +27,9 @@ function Journey() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            contentStyle={{  color: '#0b0d1a' }}
             date="2024 - 2026"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#0b0d1a', color: 'white' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Euhsd</h3>
@@ -42,21 +40,23 @@ function Journey() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            contentStyle={{  color: '#0b0d1a' }}
             date="2023 - 2025"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#0b0d1a', color: 'white' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Resource Specialist</h3>
             <h4 className="vertical-timeline-element-subtitle">Ocenside, CA</h4>
             <p>
-              Office , planning , data analysis, operations support, project/case management
+              Office, planning , data analysis, operations support, project/case management
             </p>
           </VerticalTimelineElement>
           
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            contentStyle={{  color: '#0b0d1a' }}
             date="2022 - 2023"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#0b0d1a', color: 'white' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">full stack SWE Intern</h3>
@@ -67,8 +67,9 @@ function Journey() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            contentStyle={{  color: '#0b0d1a' }}
             date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#0b0d1a', color: 'white' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
@@ -79,8 +80,9 @@ function Journey() {
           </VerticalTimelineElement>
            <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            contentStyle={{  color: '#0b0d1a' }}
             date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#0b0d1a', color: 'white' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">career shadowing</h3>
@@ -91,8 +93,9 @@ function Journey() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            contentStyle={{  color: '#0b0d1a' }}
             date="2019 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#0b0d1a', color: 'white' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">L5 In n out associate</h3>
@@ -101,6 +104,51 @@ function Journey() {
               wrapping exceptional burgers, leading teams, "client" relations
             </p>
           </VerticalTimelineElement>
+
+           <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{  color: '#0b0d1a' }}
+            date="2019 - 2022"
+            iconStyle={{ background: '#0b0d1a', color: 'white' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">L5 In n out associate</h3>
+            <h4 className="vertical-timeline-element-subtitle">Oceanside,CA</h4>
+            <p>
+              wrapping exceptional burgers, leading teams, "client" relations
+            </p>
+          </VerticalTimelineElement>
+
+           <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{  color: '#0b0d1a' }}
+            date="2019 - 2022"
+            iconStyle={{ background: '#0b0d1a', color: 'white' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">L5 In n out associate</h3>
+            <h4 className="vertical-timeline-element-subtitle">Oceanside,CA</h4>
+            <p>
+              wrapping exceptional burgers, leading teams, "client" relations
+            </p>
+          </VerticalTimelineElement>
+
+
+           <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{  color: '#0b0d1a' }}  
+            date="2019 - 2022"
+            iconStyle={{ background: '#0b0d1a', color: 'white' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">L5 In n out associate</h3>
+            <h4 className="vertical-timeline-element-subtitle">Oceanside,CA</h4>
+            <p>
+              wrapping exceptional burgers, leading teams, "client" relations
+            </p>
+          </VerticalTimelineElement>
+
+          
         </VerticalTimeline>
       </div>
     </div>

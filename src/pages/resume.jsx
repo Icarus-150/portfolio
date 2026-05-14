@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
-import pdf from '../assets/HW2.pdf';
+import pdf from '../assets/Kevin_Mendoza.pdf';
  import Particle from "../assets/particle.jsx";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/Page/AnnotationLayer.css";
@@ -19,9 +19,7 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
-        <Particle/>
-        
-
+        <Particle />
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
           {/* <Document file="/public/HW2.pdf"> */}

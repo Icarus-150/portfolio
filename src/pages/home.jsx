@@ -26,7 +26,7 @@ import Postman from "../assets/TechIcons/Postman.svg";
 import AWS from "../assets/TechIcons/AWS.svg";
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { useState } from 'react';
-import ContactCard from './contactcard.jsx';
+import ContactCard from '../pages/contactcard.jsx';
 
 function TechIcon({ src, name, description, isOpen, onToggle }) {
   return (

@@ -495,6 +495,22 @@ animation: articleGrow 0.22s ease-out;
   max-height: none;
   animation: popupGrow 0.25s ease-out;
 }
+
+.contact-card {
+  transform-origin: left;
+  overflow: hidden;
+  opacity: 100;
+  transform: scaleX(0.2) scaleY(0.8);
+  max-height: 0;
+  transition: all 0.35s ease-out;
+}
+
+.contact-card.open {
+  opacity: 1;
+  transform: scaleX(1) scaleY(1);
+  max-height: none;
+  animation: popupGrow 0.25s ease-out;
+}
 .name-banner
 {
   transition: all 0.35s ease-out;
